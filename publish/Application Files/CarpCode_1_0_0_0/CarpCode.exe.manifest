@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CarpCode.exe" version="1.0.0.0" publicKeyToken="16533fa6a476b1d3" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CarpCode.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CarpCode" version="1.0.0.0" publicKeyToken="16533FA6A476B1D3" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CarpCode.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CarpCode.exe" size="127968">
+      <assemblyIdentity name="CarpCode" version="1.0.0.0" publicKeyToken="16533FA6A476B1D3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r6RNZQ8LYKmQkQ/OYNWdZIWn3NK5LKry/FaLJF1H7ic=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CarpCode.exe.config" size="1379">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5X99icOkfQUbU8XyTXxp9kbaCZJretKKwVY/c3BypVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CarpCode.ico" size="118718">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xUwblyDSFKHP0zkUPKU18CHEw1w/scVwDnr892fpZw4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=R-E-C-K4000\MaxedCarp" issuerKeyHash="ada89b37341175c374252567b5e9b2fb647fc4ff" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5d26MTJxjg+yi2A1Yy7V/zlrrJrjQAuEq4sLyZN5JFc=</DigestValue></Reference></SignedInfo><SignatureValue>VqTzS67bzRgRMLqZfjrhNOhqIvJEIOD51S3woj5vGQCyWkB0CnHACuX4frKfepsR692K/WyGmN2bL9dKCe9U0GbBSDHKVfyJzauACoZbOXEmqBybMPkMl+DQa5v1WkPIZvYxIMejHGuQRpe37fNPm6hny7P1cdeqGV4qg4cUdZQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>62p1nWzn/yVzFBRU0Vw/ihpen7KmtIu0ppvG/hCsjd6yJJst1ri68AeP1h6cRfeaBzVBPeg9hz31Hk3DcFV9lNwBqvK2HmCkHIRXNjQy/MHlDDgyH5KnouKVX6ffpg87RSSBQmbZ6sHx1PZOQBbwF4X00Tiz2N509Quo/Loy4kk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="57247993c90b8bab840b40e39aac6b39ffd52e6335608bb20f8e713231badde5" Description="" Url=""><as:assemblyIdentity name="CarpCode.exe" version="1.0.0.0" publicKeyToken="16533fa6a476b1d3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=R-E-C-K4000\MaxedCarp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HE5weoCIpg+7nbU+PPZRmFo2QWYO1Y/4B5XZImXPNYs=</DigestValue></Reference></SignedInfo><SignatureValue>UqY98aMZ4K2yKRBiG2jamA3JE5B29lI06D9GDXVofxmPeU4j1KFRCRzHgHDDGAVbcqq+gX9FUJ//yDZzqWb3hZ55KtZXtQEHmb0qXYxWB2/pkL9fmFf1kl5Y9jjxDOfguqVwp5ico5IEYI7WCIVzeCFJ53wVj+iKoPfem5CqurY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>62p1nWzn/yVzFBRU0Vw/ihpen7KmtIu0ppvG/hCsjd6yJJst1ri68AeP1h6cRfeaBzVBPeg9hz31Hk3DcFV9lNwBqvK2HmCkHIRXNjQy/MHlDDgyH5KnouKVX6ffpg87RSSBQmbZ6sHx1PZOQBbwF4X00Tiz2N509Quo/Loy4kk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZ6fhRxIIjp9En/mb1rZE8jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAUgAtAEUALQBDAC0ASwA0ADAAMAAwAFwATQBhAHgAZQBkAEMAYQByAHAwHhcNMjEwMzAyMDg1NjA2WhcNMjIwMzAyMTQ1NjA2WjA1MTMwMQYDVQQDHioAUgAtAEUALQBDAC0ASwA0ADAAMAAwAFwATQBhAHgAZQBkAEMAYQByAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOtqdZ1s5/8lcxQUVNFcP4oaXp+yprSLtKabxv4QrI3esiSbLda4uvAHj9YenEX3mgc1QT3oPYc99R5Nw3BVfZTcAaryth5gpByEVzY0MvzB5Qw4Mh+Sp6LilV+n36YPO0UkgUJm2erB8dT2TkAW8BeF9NE4s9jedPULqPy6MuJJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA2u8uKfJaj6j2ruVRlG2IEdHoxMgAhnUmcNR/byFWpZh0tUtERK55+WmXTtJ7uCMKPHcZ7MNPW6oIPeijN6Un0TX8gTwycQxgQ4Qm9ERIWxKxPH9ude19NYPFbMvPkRy/p/RSP2wfGSFfW9+UOuOL5vvVpQ92FCD+U61hJ8MU4hI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

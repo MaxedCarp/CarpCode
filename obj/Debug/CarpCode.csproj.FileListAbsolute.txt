@@ -1,0 +1,11 @@
+H:\c#\CarpCode\CarpCode\obj\Debug\CarpCode.csprojAssemblyReference.cache
+H:\c#\CarpCode\CarpCode\bin\Debug\CarpCode.exe.config
+H:\c#\CarpCode\CarpCode\bin\Debug\CarpCode.exe
+H:\c#\CarpCode\CarpCode\bin\Debug\CarpCode.pdb
+H:\c#\CarpCode\CarpCode\obj\Debug\CarpCode.exe
+H:\c#\CarpCode\CarpCode\obj\Debug\CarpCode.pdb
+H:\c#\CarpCode\CarpCode\bin\Debug\CarpCode.exe.manifest
+H:\c#\CarpCode\CarpCode\bin\Debug\CarpCode.application
+H:\c#\CarpCode\CarpCode\obj\Debug\CarpCode.TrustInfo.xml
+H:\c#\CarpCode\CarpCode\obj\Debug\CarpCode.exe.manifest
+H:\c#\CarpCode\CarpCode\obj\Debug\CarpCode.application

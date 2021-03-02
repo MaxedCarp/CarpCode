@@ -1,0 +1,5 @@
+H:\c#\CarpCode\CarpCode\bin\Release\CarpCode.exe.config
+H:\c#\CarpCode\CarpCode\bin\Release\CarpCode.exe
+H:\c#\CarpCode\CarpCode\bin\Release\CarpCode.pdb
+H:\c#\CarpCode\CarpCode\obj\Release\CarpCode.exe
+H:\c#\CarpCode\CarpCode\obj\Release\CarpCode.pdb

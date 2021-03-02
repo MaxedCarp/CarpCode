@@ -3,7 +3,7 @@ Allows the creation of complex passwords using a code and a key.
 
 Arguments
 -
-Key:
+Key: \n
 t: Text. When encoding using the Text modifier, the piece of code will remain the same at that spot.
 a: ASCII. Every key in your keyboard has a numeric value behind it. This is called ASCII.
 b: Basic. Every letter in the alphabet will always remain in it's own spot in the order. So both A and a will remain 1, B and b will remain 2, ETC.
